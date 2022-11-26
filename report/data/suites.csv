@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"skipped","Sat Nov 26 01:17:45 GMT+08:00 2022","Sat Nov 26 01:17:45 GMT+08:00 2022","0","testcases","test_web","","","","test_login",""
+"passed","Sat Nov 26 01:17:57 GMT+08:00 2022","Sat Nov 26 01:18:00 GMT+08:00 2022","2687","testcases","test_web","","","","test_goods_favor","
+
+    :param user_driver: 已登录的浏览器
+    :param clear_favor: 清除收藏的端口
+    :return:
+    "

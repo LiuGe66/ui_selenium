@@ -1,0 +1,13 @@
+INFO     01:17:54 [conftest:30] : 加载cookies[{'domain': '101.34.221.219', 'httpOnly': False, 'name': 'PHPSESSID', 'path': '/', 'secure': False, 'value': '43893a57572e02916e8c2f245ad6b4a7'}]
+WARNING  01:17:54 [conftest:33] : 设置cookie:{'domain': '101.34.221.219', 'httpOnly': False, 'name': 'PHPSESSID', 'path': '/', 'secure': False, 'value': '43893a57572e02916e8c2f245ad6b4a7'}
+INFO     01:17:55 [conftest:54] : 设置完成了。。。
+INFO     01:17:56 [core.pom:39] : 正在定位元素('xpath', "//button[text()='全选']")
+INFO     01:17:56 [core.pom:41] : 元素定位成功
+INFO     01:17:56 [core.pom:39] : 正在定位元素('xpath', '//*[@data-key="ids"]')
+INFO     01:17:56 [core.pom:41] : 元素定位成功
+INFO     01:17:57 [core.pom:39] : 正在定位元素('xpath', '//span[text()="确定"]')
+INFO     01:17:57 [core.pom:41] : 元素定位成功
+INFO     01:17:59 [core.pom:39] : 正在定位元素('xpath', "//*[text()='收藏']")
+INFO     01:17:59 [core.pom:41] : 元素定位成功
+INFO     01:17:59 [core.pom:39] : 正在定位元素('xpath', "//*[@class='goods-favor-count']")
+INFO     01:17:59 [core.pom:41] : 元素定位成功
