@@ -1,13 +1,209 @@
-INFO     01:17:54 [conftest:30] : 加载cookies[{'domain': '101.34.221.219', 'httpOnly': False, 'name': 'PHPSESSID', 'path': '/', 'secure': False, 'value': '43893a57572e02916e8c2f245ad6b4a7'}]
-WARNING  01:17:54 [conftest:33] : 设置cookie:{'domain': '101.34.221.219', 'httpOnly': False, 'name': 'PHPSESSID', 'path': '/', 'secure': False, 'value': '43893a57572e02916e8c2f245ad6b4a7'}
-INFO     01:17:55 [conftest:54] : 设置完成了。。。
-INFO     01:17:56 [core.pom:39] : 正在定位元素('xpath', "//button[text()='全选']")
-INFO     01:17:56 [core.pom:41] : 元素定位成功
-INFO     01:17:56 [core.pom:39] : 正在定位元素('xpath', '//*[@data-key="ids"]')
-INFO     01:17:56 [core.pom:41] : 元素定位成功
-INFO     01:17:57 [core.pom:39] : 正在定位元素('xpath', '//span[text()="确定"]')
-INFO     01:17:57 [core.pom:41] : 元素定位成功
-INFO     01:17:59 [core.pom:39] : 正在定位元素('xpath', "//*[text()='收藏']")
-INFO     01:17:59 [core.pom:41] : 元素定位成功
-INFO     01:17:59 [core.pom:39] : 正在定位元素('xpath', "//*[@class='goods-favor-count']")
-INFO     01:17:59 [core.pom:41] : 元素定位成功
+INFO     00:27:26 [conftest:31] : 加载cookies[{'domain': 'shop-xo.hctestedu.com', 'expiry': 1672071730, 'httpOnly': False, 'name': 'BMAP_SECKEY', 'path': '/', 'secure': False, 'value': '5eFH0KHWY2hd4W5NRo2oeEgCP9H15Jle3xhJDoI3PxSJpocCWquqzwWeVwWp5_gblbXShqBxf7YvvLN75CVGxudzqJNSSN5xbusOILAJcoUnOzDPjHOqToKMVLfm4ualH2Cg5y4n7wek9-6_oXKpiViJEwTbzUfmHHB9hC5dkA_GKYy1BLSdsJ5GIY0LDQYeWRk50wXto3303VagNyTlnQ'}, {'domain': '.shop-xo.hctestedu.com', 'httpOnly': True, 'name': 'PHPSESSID', 'path': '/', 'secure': False, 'value': 'vgv09g0s6tj6ld7s578ig8rbrg'}, {'domain': '.shop-xo.hctestedu.com', 'expiry': 1672063291, 'httpOnly': False, 'name': 'BMAP_SECKEY', 'path': '/', 'secure': False, 'value': '5eFH0KHWY2hd4W5NRo2oeODl8BCHihjZWnlK2b_YucSpKFjk_AhvJCCxgNEzhopI03itZHhtACisA581enHeRh3K758pLGuv4IbA9l6JE6E_ZZJCFkGS6JBKm3XMxccNV3_RNUH-Qz2V8prtoFOdWKa8EjSoY4nM_MVcJHXMm8tnz-Gw7ZdUL1gHFLtPstDlvX8KE0rscdXgYrcm5P4rqQ'}, {'domain': 'shop-xo.hctestedu.com', 'expiry': 1672071730, 'httpOnly': False, 'name': 'SECKEY_ABVK', 'path': '/', 'secure': False, 'value': 'rN+H6QKvg53XZy/KCtwuJgJ9ypFIQ21NhwcOlL0IrrY%3D'}, {'domain': '.shop-xo.hctestedu.com', 'expiry': 1672063291, 'httpOnly': False, 'name': 'SECKEY_ABVK', 'path': '/', 'secure': False, 'value': 'rN+H6QKvg53XZy/KCtwuJjh7AKTQZwArsQUez1DSyUY%3D'}, {'domain': 'shop-xo.hctestedu.com', 'httpOnly': True, 'name': 'PHPSESSID', 'path': '/', 'secure': False, 'value': '4e65g0v2qp1cqu94s1r39h5c8f'}]
+INFO     00:27:26 [conftest:34] : 设置cookie:{'domain': 'shop-xo.hctestedu.com', 'expiry': 1672071730, 'httpOnly': False, 'name': 'BMAP_SECKEY', 'path': '/', 'secure': False, 'value': '5eFH0KHWY2hd4W5NRo2oeEgCP9H15Jle3xhJDoI3PxSJpocCWquqzwWeVwWp5_gblbXShqBxf7YvvLN75CVGxudzqJNSSN5xbusOILAJcoUnOzDPjHOqToKMVLfm4ualH2Cg5y4n7wek9-6_oXKpiViJEwTbzUfmHHB9hC5dkA_GKYy1BLSdsJ5GIY0LDQYeWRk50wXto3303VagNyTlnQ'}
+INFO     00:27:26 [conftest:34] : 设置cookie:{'domain': '.shop-xo.hctestedu.com', 'httpOnly': True, 'name': 'PHPSESSID', 'path': '/', 'secure': False, 'value': 'vgv09g0s6tj6ld7s578ig8rbrg'}
+INFO     00:27:26 [conftest:34] : 设置cookie:{'domain': '.shop-xo.hctestedu.com', 'expiry': 1672063291, 'httpOnly': False, 'name': 'BMAP_SECKEY', 'path': '/', 'secure': False, 'value': '5eFH0KHWY2hd4W5NRo2oeODl8BCHihjZWnlK2b_YucSpKFjk_AhvJCCxgNEzhopI03itZHhtACisA581enHeRh3K758pLGuv4IbA9l6JE6E_ZZJCFkGS6JBKm3XMxccNV3_RNUH-Qz2V8prtoFOdWKa8EjSoY4nM_MVcJHXMm8tnz-Gw7ZdUL1gHFLtPstDlvX8KE0rscdXgYrcm5P4rqQ'}
+INFO     00:27:26 [conftest:34] : 设置cookie:{'domain': 'shop-xo.hctestedu.com', 'expiry': 1672071730, 'httpOnly': False, 'name': 'SECKEY_ABVK', 'path': '/', 'secure': False, 'value': 'rN+H6QKvg53XZy/KCtwuJgJ9ypFIQ21NhwcOlL0IrrY%3D'}
+INFO     00:27:26 [conftest:34] : 设置cookie:{'domain': '.shop-xo.hctestedu.com', 'expiry': 1672063291, 'httpOnly': False, 'name': 'SECKEY_ABVK', 'path': '/', 'secure': False, 'value': 'rN+H6QKvg53XZy/KCtwuJjh7AKTQZwArsQUez1DSyUY%3D'}
+INFO     00:27:26 [conftest:34] : 设置cookie:{'domain': 'shop-xo.hctestedu.com', 'httpOnly': True, 'name': 'PHPSESSID', 'path': '/', 'secure': False, 'value': '4e65g0v2qp1cqu94s1r39h5c8f'}
+INFO     00:27:26 [core.pom:37] : 正在定位元素('xpath', '//*[text()="登录"]')
+INFO     00:27:26 [core.pom:39] : 元素定位成功
+INFO     00:27:26 [core.pom:37] : 正在定位元素('xpath', '//*[@id="ai-topsearch"]')
+INFO     00:27:26 [core.pom:39] : 元素定位成功
+INFO     00:27:26 [core.pom:37] : 正在定位元素('xpath', '//*[@id="search-input"]')
+INFO     00:27:26 [core.pom:39] : 元素定位成功
+INFO     00:27:27 [core.pom:37] : 正在定位元素('xpath', "//button[contains(@data-am-loading,'{load') and text()='登录']")
+INFO     00:27:27 [core.pom:39] : 元素定位成功
+INFO     00:27:27 [core.pom:37] : 正在定位元素('xpath', "//*[@name='pwd']")
+INFO     00:27:27 [core.pom:39] : 元素定位成功
+INFO     00:27:27 [core.pom:37] : 正在定位元素('xpath', "//*[@name='accounts']")
+INFO     00:27:27 [core.pom:39] : 元素定位成功
+INFO     00:27:28 [core.kdt:21] : 正在定位元素('xpath', "//*[text()='修改']")
+INFO     00:27:28 [core.kdt:23] : 元素定位成功
+INFO     00:27:28 [core.kdt:21] : 正在定位元素('xpath', '//*[@id="user-avatar-popup"]/div/div[2]/form/div[2]/div/input')
+INFO     00:27:28 [core.kdt:23] : 元素定位成功
+INFO     00:27:28 [core.kdt:21] : 正在定位元素('xpath', '//*[@id="user-avatar-popup"]/div/div[2]/form/div[2]/div/input')
+INFO     00:27:28 [core.kdt:23] : 元素定位成功
+INFO     00:27:28 [core.kdt:21] : 正在定位元素('xpath', "//*[text()='确认上传']")
+INFO     00:27:28 [core.kdt:23] : 元素定位成功
+INFO     00:27:39 [core.kdt:21] : 正在定位元素('xpath', "//*[text()='修改']")
+INFO     00:27:39 [core.kdt:23] : 元素定位成功
+INFO     00:27:39 [core.kdt:21] : 正在定位元素('xpath', '//*[@id="user-avatar-popup"]/div/div[2]/form/div[2]/div/input')
+INFO     00:27:39 [core.kdt:23] : 元素定位成功
+INFO     00:27:39 [core.kdt:21] : 正在定位元素('xpath', '//*[@id="user-avatar-popup"]/div/div[2]/form/div[2]/div/input')
+INFO     00:27:39 [core.kdt:23] : 元素定位成功
+INFO     00:27:39 [core.kdt:21] : 正在定位元素('xpath', "//*[text()='确认上传']")
+INFO     00:27:39 [core.kdt:23] : 元素定位成功
+INFO     00:27:40 [core.kdt:54] : 实际结果:上传成功
+INFO     00:27:40 [core.kdt:55] : 期望结果:上传成功
+INFO     00:27:41 [core.kdt:21] : 正在定位元素('xpath', "//*[text()='修改']")
+INFO     00:27:41 [core.kdt:23] : 元素定位成功
+INFO     00:27:41 [core.kdt:21] : 正在定位元素('xpath', '//*[@id="user-avatar-popup"]/div/div[2]/form/div[2]/div/input')
+INFO     00:27:41 [core.kdt:23] : 元素定位成功
+INFO     00:27:41 [core.kdt:21] : 正在定位元素('xpath', '//*[@id="user-avatar-popup"]/div/div[2]/form/div[2]/div/input')
+INFO     00:27:41 [core.kdt:23] : 元素定位成功
+INFO     00:27:41 [core.kdt:21] : 正在定位元素('xpath', "//*[text()='确认上传']")
+INFO     00:27:41 [core.kdt:23] : 元素定位成功
+INFO     00:27:42 [core.kdt:54] : 实际结果:上传成功
+INFO     00:27:42 [core.kdt:55] : 期望结果:上传成功
+INFO     00:27:42 [core.kdt:21] : 正在定位元素('xpath', "//*[text()='修改']")
+INFO     00:27:42 [core.kdt:23] : 元素定位成功
+INFO     00:27:42 [core.kdt:21] : 正在定位元素('xpath', '//*[@id="user-avatar-popup"]/div/div[2]/form/div[2]/div/input')
+INFO     00:27:42 [core.kdt:23] : 元素定位成功
+INFO     00:27:42 [core.kdt:21] : 正在定位元素('xpath', '//*[@id="user-avatar-popup"]/div/div[2]/form/div[2]/div/input')
+INFO     00:27:42 [core.kdt:23] : 元素定位成功
+INFO     00:27:43 [core.kdt:21] : 正在定位元素('xpath', "//*[text()='确认上传']")
+INFO     00:27:43 [core.kdt:23] : 元素定位成功
+INFO     00:27:44 [core.kdt:54] : 实际结果:上传成功
+INFO     00:27:44 [core.kdt:55] : 期望结果:上传成功
+INFO     00:27:44 [core.kdt:21] : 正在定位元素('xpath', "//*[text()='修改']")
+INFO     00:27:44 [core.kdt:23] : 元素定位成功
+INFO     00:27:44 [core.kdt:21] : 正在定位元素('xpath', '//*[@id="user-avatar-popup"]/div/div[2]/form/div[2]/div/input')
+INFO     00:27:44 [core.kdt:23] : 元素定位成功
+INFO     00:27:44 [core.kdt:21] : 正在定位元素('xpath', '//*[@id="user-avatar-popup"]/div/div[2]/form/div[2]/div/input')
+INFO     00:27:44 [core.kdt:23] : 元素定位成功
+INFO     00:27:44 [core.kdt:21] : 正在定位元素('xpath', "//*[text()='确认上传']")
+INFO     00:27:44 [core.kdt:23] : 元素定位成功
+INFO     00:27:45 [core.kdt:54] : 实际结果:上传成功
+INFO     00:27:45 [core.kdt:55] : 期望结果:上传成功
+INFO     00:27:46 [core.kdt:21] : 正在定位元素('xpath', "//*[text()='修改']")
+INFO     00:27:46 [core.kdt:23] : 元素定位成功
+INFO     00:27:46 [core.kdt:21] : 正在定位元素('xpath', '//*[@id="user-avatar-popup"]/div/div[2]/form/div[2]/div/input')
+INFO     00:27:46 [core.kdt:23] : 元素定位成功
+INFO     00:27:46 [core.kdt:21] : 正在定位元素('xpath', '//*[@id="user-avatar-popup"]/div/div[2]/form/div[2]/div/input')
+INFO     00:27:46 [core.kdt:23] : 元素定位成功
+INFO     00:27:46 [core.kdt:21] : 正在定位元素('xpath', "//*[text()='确认上传']")
+INFO     00:27:46 [core.kdt:23] : 元素定位成功
+INFO     00:27:57 [core.kdt:21] : 正在定位元素('xpath', "//*[text()='修改']")
+INFO     00:27:57 [core.kdt:23] : 元素定位成功
+INFO     00:27:57 [core.kdt:21] : 正在定位元素('xpath', '//*[@id="user-avatar-popup"]/div/div[2]/form/div[2]/div/input')
+INFO     00:27:57 [core.kdt:23] : 元素定位成功
+INFO     00:27:57 [core.kdt:21] : 正在定位元素('xpath', '//*[@id="user-avatar-popup"]/div/div[2]/form/div[2]/div/input')
+INFO     00:27:57 [core.kdt:23] : 元素定位成功
+INFO     00:27:57 [core.kdt:21] : 正在定位元素('xpath', "//*[text()='确认上传']")
+INFO     00:27:57 [core.kdt:23] : 元素定位成功
+INFO     00:27:59 [core.kdt:54] : 实际结果:上传成功
+INFO     00:27:59 [core.kdt:55] : 期望结果:上传成功
+INFO     00:27:59 [core.kdt:21] : 正在定位元素('xpath', "//*[text()='修改']")
+INFO     00:27:59 [core.kdt:23] : 元素定位成功
+INFO     00:28:00 [core.kdt:21] : 正在定位元素('xpath', '//*[@id="user-avatar-popup"]/div/div[2]/form/div[2]/div/input')
+INFO     00:28:00 [core.kdt:23] : 元素定位成功
+INFO     00:28:00 [core.kdt:21] : 正在定位元素('xpath', '//*[@id="user-avatar-popup"]/div/div[2]/form/div[2]/div/input')
+INFO     00:28:00 [core.kdt:23] : 元素定位成功
+INFO     00:28:00 [core.kdt:21] : 正在定位元素('xpath', "//*[text()='确认上传']")
+INFO     00:28:00 [core.kdt:23] : 元素定位成功
+INFO     00:28:01 [core.kdt:54] : 实际结果:上传成功
+INFO     00:28:01 [core.kdt:55] : 期望结果:上传成功
+INFO     00:28:02 [core.kdt:21] : 正在定位元素('xpath', "//*[text()='修改']")
+INFO     00:28:02 [core.kdt:23] : 元素定位成功
+INFO     00:28:02 [core.kdt:21] : 正在定位元素('xpath', '//*[@id="user-avatar-popup"]/div/div[2]/form/div[2]/div/input')
+INFO     00:28:02 [core.kdt:23] : 元素定位成功
+INFO     00:28:02 [core.kdt:21] : 正在定位元素('xpath', '//*[@id="user-avatar-popup"]/div/div[2]/form/div[2]/div/input')
+INFO     00:28:02 [core.kdt:23] : 元素定位成功
+INFO     00:28:02 [core.kdt:21] : 正在定位元素('xpath', "//*[text()='确认上传']")
+INFO     00:28:02 [core.kdt:23] : 元素定位成功
+INFO     00:28:03 [core.kdt:54] : 实际结果:上传成功
+INFO     00:28:03 [core.kdt:55] : 期望结果:上传成功
+INFO     00:28:04 [core.kdt:21] : 正在定位元素('xpath', "//*[text()='修改']")
+INFO     00:28:04 [core.kdt:23] : 元素定位成功
+INFO     00:28:04 [core.kdt:21] : 正在定位元素('xpath', '//*[@id="user-avatar-popup"]/div/div[2]/form/div[2]/div/input')
+INFO     00:28:04 [core.kdt:23] : 元素定位成功
+INFO     00:28:04 [core.kdt:21] : 正在定位元素('xpath', '//*[@id="user-avatar-popup"]/div/div[2]/form/div[2]/div/input')
+INFO     00:28:04 [core.kdt:23] : 元素定位成功
+INFO     00:28:04 [core.kdt:21] : 正在定位元素('xpath', "//*[text()='确认上传']")
+INFO     00:28:04 [core.kdt:23] : 元素定位成功
+INFO     00:28:14 [core.kdt:21] : 正在定位元素('xpath', "//*[text()='修改']")
+INFO     00:28:14 [core.kdt:23] : 元素定位成功
+INFO     00:28:15 [core.kdt:21] : 正在定位元素('xpath', '//*[@id="user-avatar-popup"]/div/div[2]/form/div[2]/div/input')
+INFO     00:28:15 [core.kdt:23] : 元素定位成功
+INFO     00:28:15 [core.kdt:21] : 正在定位元素('xpath', '//*[@id="user-avatar-popup"]/div/div[2]/form/div[2]/div/input')
+INFO     00:28:15 [core.kdt:23] : 元素定位成功
+INFO     00:28:15 [core.kdt:21] : 正在定位元素('xpath', "//*[text()='确认上传']")
+INFO     00:28:15 [core.kdt:23] : 元素定位成功
+INFO     00:28:16 [core.kdt:54] : 实际结果:上传成功
+INFO     00:28:16 [core.kdt:55] : 期望结果:上传成功
+INFO     00:28:16 [core.kdt:21] : 正在定位元素('xpath', "//*[text()='修改']")
+INFO     00:28:16 [core.kdt:23] : 元素定位成功
+INFO     00:28:16 [core.kdt:21] : 正在定位元素('xpath', '//*[@id="user-avatar-popup"]/div/div[2]/form/div[2]/div/input')
+INFO     00:28:16 [core.kdt:23] : 元素定位成功
+INFO     00:28:16 [core.kdt:21] : 正在定位元素('xpath', '//*[@id="user-avatar-popup"]/div/div[2]/form/div[2]/div/input')
+INFO     00:28:16 [core.kdt:23] : 元素定位成功
+INFO     00:28:16 [core.kdt:21] : 正在定位元素('xpath', "//*[text()='确认上传']")
+INFO     00:28:16 [core.kdt:23] : 元素定位成功
+INFO     00:28:17 [core.kdt:54] : 实际结果:上传成功
+INFO     00:28:17 [core.kdt:55] : 期望结果:上传成功
+INFO     00:28:18 [core.kdt:21] : 正在定位元素('xpath', "//*[text()='修改']")
+INFO     00:28:18 [core.kdt:23] : 元素定位成功
+INFO     00:28:18 [core.kdt:21] : 正在定位元素('xpath', '//*[@id="user-avatar-popup"]/div/div[2]/form/div[2]/div/input')
+INFO     00:28:18 [core.kdt:23] : 元素定位成功
+INFO     00:28:18 [core.kdt:21] : 正在定位元素('xpath', '//*[@id="user-avatar-popup"]/div/div[2]/form/div[2]/div/input')
+INFO     00:28:18 [core.kdt:23] : 元素定位成功
+INFO     00:28:18 [core.kdt:21] : 正在定位元素('xpath', "//*[text()='确认上传']")
+INFO     00:28:18 [core.kdt:23] : 元素定位成功
+INFO     00:28:29 [core.kdt:21] : 正在定位元素('xpath', "//*[text()='修改']")
+INFO     00:28:29 [core.kdt:23] : 元素定位成功
+INFO     00:28:29 [core.kdt:21] : 正在定位元素('xpath', '//*[@id="user-avatar-popup"]/div/div[2]/form/div[2]/div/input')
+INFO     00:28:29 [core.kdt:23] : 元素定位成功
+INFO     00:28:29 [core.kdt:21] : 正在定位元素('xpath', '//*[@id="user-avatar-popup"]/div/div[2]/form/div[2]/div/input')
+INFO     00:28:29 [core.kdt:23] : 元素定位成功
+INFO     00:28:29 [core.kdt:21] : 正在定位元素('xpath', "//*[text()='确认上传']")
+INFO     00:28:29 [core.kdt:23] : 元素定位成功
+INFO     00:28:30 [core.kdt:54] : 实际结果:上传成功
+INFO     00:28:30 [core.kdt:55] : 期望结果:上传成功
+INFO     00:28:31 [core.kdt:21] : 正在定位元素('xpath', "//*[text()='修改']")
+INFO     00:28:31 [core.kdt:23] : 元素定位成功
+INFO     00:28:31 [core.kdt:21] : 正在定位元素('xpath', '//*[@id="user-avatar-popup"]/div/div[2]/form/div[2]/div/input')
+INFO     00:28:31 [core.kdt:23] : 元素定位成功
+INFO     00:28:31 [core.kdt:21] : 正在定位元素('xpath', '//*[@id="user-avatar-popup"]/div/div[2]/form/div[2]/div/input')
+INFO     00:28:31 [core.kdt:23] : 元素定位成功
+INFO     00:28:31 [core.kdt:21] : 正在定位元素('xpath', "//*[text()='确认上传']")
+INFO     00:28:31 [core.kdt:23] : 元素定位成功
+INFO     00:28:32 [core.kdt:54] : 实际结果:上传成功
+INFO     00:28:32 [core.kdt:55] : 期望结果:上传成功
+INFO     00:28:32 [core.kdt:21] : 正在定位元素('xpath', "//*[text()='修改']")
+INFO     00:28:32 [core.kdt:23] : 元素定位成功
+INFO     00:28:32 [core.kdt:21] : 正在定位元素('xpath', '//*[@id="user-avatar-popup"]/div/div[2]/form/div[2]/div/input')
+INFO     00:28:32 [core.kdt:23] : 元素定位成功
+INFO     00:28:32 [core.kdt:21] : 正在定位元素('xpath', '//*[@id="user-avatar-popup"]/div/div[2]/form/div[2]/div/input')
+INFO     00:28:32 [core.kdt:23] : 元素定位成功
+INFO     00:28:33 [core.kdt:21] : 正在定位元素('xpath', "//*[text()='确认上传']")
+INFO     00:28:33 [core.kdt:23] : 元素定位成功
+INFO     00:28:34 [core.kdt:54] : 实际结果:上传成功
+INFO     00:28:34 [core.kdt:55] : 期望结果:上传成功
+INFO     00:28:34 [core.kdt:21] : 正在定位元素('xpath', "//*[text()='修改']")
+INFO     00:28:34 [core.kdt:23] : 元素定位成功
+INFO     00:28:34 [core.kdt:21] : 正在定位元素('xpath', '//*[@id="user-avatar-popup"]/div/div[2]/form/div[2]/div/input')
+INFO     00:28:34 [core.kdt:23] : 元素定位成功
+INFO     00:28:34 [core.kdt:21] : 正在定位元素('xpath', '//*[@id="user-avatar-popup"]/div/div[2]/form/div[2]/div/input')
+INFO     00:28:34 [core.kdt:23] : 元素定位成功
+INFO     00:28:34 [core.kdt:21] : 正在定位元素('xpath', "//*[text()='确认上传']")
+INFO     00:28:34 [core.kdt:23] : 元素定位成功
+INFO     00:28:45 [core.kdt:21] : 正在定位元素('xpath', "//*[text()='修改']")
+INFO     00:28:45 [core.kdt:23] : 元素定位成功
+INFO     00:28:45 [core.kdt:21] : 正在定位元素('xpath', '//*[@id="user-avatar-popup"]/div/div[2]/form/div[2]/div/input')
+INFO     00:28:45 [core.kdt:23] : 元素定位成功
+INFO     00:28:45 [core.kdt:21] : 正在定位元素('xpath', '//*[@id="user-avatar-popup"]/div/div[2]/form/div[2]/div/input')
+INFO     00:28:45 [core.kdt:23] : 元素定位成功
+INFO     00:28:45 [core.kdt:21] : 正在定位元素('xpath', "//*[text()='确认上传']")
+INFO     00:28:45 [core.kdt:23] : 元素定位成功
+INFO     00:28:46 [core.kdt:54] : 实际结果:上传成功
+INFO     00:28:46 [core.kdt:55] : 期望结果:上传成功
+INFO     00:28:47 [core.kdt:21] : 正在定位元素('xpath', "//*[text()='修改']")
+INFO     00:28:47 [core.kdt:23] : 元素定位成功
+INFO     00:28:47 [core.kdt:21] : 正在定位元素('xpath', '//*[@id="user-avatar-popup"]/div/div[2]/form/div[2]/div/input')
+INFO     00:28:47 [core.kdt:23] : 元素定位成功
+INFO     00:28:47 [core.kdt:21] : 正在定位元素('xpath', '//*[@id="user-avatar-popup"]/div/div[2]/form/div[2]/div/input')
+INFO     00:28:47 [core.kdt:23] : 元素定位成功
+INFO     00:28:47 [core.kdt:21] : 正在定位元素('xpath', "//*[text()='确认上传']")
+INFO     00:28:47 [core.kdt:23] : 元素定位成功
+INFO     00:28:48 [core.kdt:54] : 实际结果:上传成功
+INFO     00:28:48 [core.kdt:55] : 期望结果:上传成功
+INFO     00:28:49 [core.kdt:21] : 正在定位元素('xpath', "//*[text()='修改']")
+INFO     00:28:49 [core.kdt:23] : 元素定位成功
+INFO     00:28:49 [core.kdt:21] : 正在定位元素('xpath', '//*[@id="user-avatar-popup"]/div/div[2]/form/div[2]/div/input')
+INFO     00:28:49 [core.kdt:23] : 元素定位成功
+INFO     00:28:49 [core.kdt:21] : 正在定位元素('xpath', '//*[@id="user-avatar-popup"]/div/div[2]/form/div[2]/div/input')
+INFO     00:28:49 [core.kdt:23] : 元素定位成功
+INFO     00:28:49 [core.kdt:21] : 正在定位元素('xpath', "//*[text()='确认上传']")
+INFO     00:28:49 [core.kdt:23] : 元素定位成功
+INFO     00:28:50 [core.kdt:54] : 实际结果:上传成功
+INFO     00:28:50 [core.kdt:55] : 期望结果:上传成功

@@ -12,8 +12,6 @@ logger = logging.getLogger(__name__)
 
 
 class BasePage:
-    # ele_a = '/html/body/div[2]/div/ul[1]/div/div/a[1]'
-    # ele_b = '/html/body/div[2]/div/ul[1]/div/div/b[1]'
 
     def __init__(self, driver: WebDriver):
         self.driver = driver

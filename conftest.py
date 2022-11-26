@@ -7,11 +7,11 @@ import logging
 from pathlib import Path
 import pytest
 from selenium import webdriver
-
 from core import pom
 
 logger = logging.getLogger(__name__)
-
+huace = 'http://shop-xo.hctestedu.com/'
+mashang = 'http://101.34.221.219:8010/'
 
 @pytest.fixture(scope="class")
 def driver():
@@ -22,6 +22,7 @@ def driver():
 
 
 def set_cookies(driver):
+
     cookies = []
     path = Path('temp/cookies/cookies.json')
     if path.exists():
@@ -30,9 +31,9 @@ def set_cookies(driver):
     logger.info(f"加载cookies{cookies}")
     for cookie in cookies:
         driver.add_cookie(cookie)
-        logger.warning(f"设置cookie:{cookie}")
+        logger.info(f"设置cookie:{cookie}")
 
-    driver.get("http://101.34.221.219:8010")
+    driver.get(huace)
 
 
 def is_login(driver):
@@ -45,18 +46,18 @@ def user_driver():
     返回已登录状态的浏览器
     :return:
     """
-
-    driver = webdriver.Chrome()
+    options = webdriver.ChromeOptions()
+    options.add_argument("--headless")
+    options.add_argument("--disable-gpu")
+    driver_no_gui = webdriver.Chrome(chrome_options=options)
+    driver_gui = webdriver.Chrome()
+    driver = driver_gui
     # driver.maximize_window()
-    driver.get("http://101.34.221.219:8010")
+    driver.get(huace)
     set_cookies(driver)  # 加载登录状态
     # driver.refresh()
-    logger.info('设置完成了。。。')
 
-    a = is_login(driver)
-    print('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa',a)
     if not is_login(driver):
-        logger.info("如果能看到我，就说明没有获得有效的cookies")
         page = pom.HomePage(driver)
         page = page.to_login()  # 跳转到登录页面
         page.login('liuge002', 'liuge666')
@@ -73,8 +74,8 @@ def user_driver():
 
 @pytest.fixture()
 def clear_favor(user_driver):
-    user_driver.get('http://101.34.221.219:8010/?s=usergoodsfavor/index.html')
-    # user_driver.get('http://shop-xo.hctestedu.com/index.php?s=/index/usergoodsfavor/index.html')
+    # user_driver.get(huace+"?s=usergoodsfavor/index.html")
+    user_driver.get('http://shop-xo.hctestedu.com/index.php?s=/index/usergoodsfavor/index.html')
     page = pom.UserGoodsFavor(user_driver)
     if page.ele_btn_check_all.is_enabled():
         page.delete_all()

@@ -1,8 +1,21 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"skipped","Sat Nov 26 01:17:45 GMT+08:00 2022","Sat Nov 26 01:17:45 GMT+08:00 2022","0","testcases","test_web","","","","test_login",""
-"passed","Sat Nov 26 01:17:57 GMT+08:00 2022","Sat Nov 26 01:18:00 GMT+08:00 2022","2687","testcases","test_web","","","","test_goods_favor","
-
-    :param user_driver: 已登录的浏览器
-    :param clear_favor: 清除收藏的端口
-    :return:
-    "
+"passed","Sun Nov 27 00:27:44 GMT+08:00 2022","Sun Nov 27 00:27:45 GMT+08:00 2022","1738","testcases","test_kdt","","","","test_update_user_avatar[5-20]",""
+"passed","Sun Nov 27 00:28:46 GMT+08:00 2022","Sun Nov 27 00:28:48 GMT+08:00 2022","1777","testcases","test_kdt","","","","test_update_user_avatar[19-20]",""
+"passed","Sun Nov 27 00:28:28 GMT+08:00 2022","Sun Nov 27 00:28:30 GMT+08:00 2022","1717","testcases","test_kdt","","","","test_update_user_avatar[14-20]",""
+"passed","Sun Nov 27 00:27:42 GMT+08:00 2022","Sun Nov 27 00:27:44 GMT+08:00 2022","1726","testcases","test_kdt","","","","test_update_user_avatar[4-20]",""
+"broken","Sun Nov 27 00:27:45 GMT+08:00 2022","Sun Nov 27 00:27:56 GMT+08:00 2022","10915","testcases","test_kdt","","","","test_update_user_avatar[6-20]",""
+"passed","Sun Nov 27 00:27:40 GMT+08:00 2022","Sun Nov 27 00:27:42 GMT+08:00 2022","1693","testcases","test_kdt","","","","test_update_user_avatar[3-20]",""
+"passed","Sun Nov 27 00:28:14 GMT+08:00 2022","Sun Nov 27 00:28:16 GMT+08:00 2022","1711","testcases","test_kdt","","","","test_update_user_avatar[11-20]",""
+"passed","Sun Nov 27 00:28:16 GMT+08:00 2022","Sun Nov 27 00:28:17 GMT+08:00 2022","1711","testcases","test_kdt","","","","test_update_user_avatar[12-20]",""
+"passed","Sun Nov 27 00:27:39 GMT+08:00 2022","Sun Nov 27 00:27:40 GMT+08:00 2022","1711","testcases","test_kdt","","","","test_update_user_avatar[2-20]",""
+"passed","Sun Nov 27 00:28:30 GMT+08:00 2022","Sun Nov 27 00:28:32 GMT+08:00 2022","1679","testcases","test_kdt","","","","test_update_user_avatar[15-20]",""
+"passed","Sun Nov 27 00:27:56 GMT+08:00 2022","Sun Nov 27 00:27:59 GMT+08:00 2022","2592","testcases","test_kdt","","","","test_update_user_avatar[7-20]",""
+"passed","Sun Nov 27 00:28:01 GMT+08:00 2022","Sun Nov 27 00:28:03 GMT+08:00 2022","1683","testcases","test_kdt","","","","test_update_user_avatar[9-20]",""
+"broken","Sun Nov 27 00:28:34 GMT+08:00 2022","Sun Nov 27 00:28:45 GMT+08:00 2022","11077","testcases","test_kdt","","","","test_update_user_avatar[17-20]",""
+"broken","Sun Nov 27 00:27:28 GMT+08:00 2022","Sun Nov 27 00:27:38 GMT+08:00 2022","10943","testcases","test_kdt","","","","test_update_user_avatar[1-20]",""
+"passed","Sun Nov 27 00:27:59 GMT+08:00 2022","Sun Nov 27 00:28:01 GMT+08:00 2022","2313","testcases","test_kdt","","","","test_update_user_avatar[8-20]",""
+"broken","Sun Nov 27 00:28:03 GMT+08:00 2022","Sun Nov 27 00:28:14 GMT+08:00 2022","11067","testcases","test_kdt","","","","test_update_user_avatar[10-20]",""
+"passed","Sun Nov 27 00:28:45 GMT+08:00 2022","Sun Nov 27 00:28:46 GMT+08:00 2022","1708","testcases","test_kdt","","","","test_update_user_avatar[18-20]",""
+"passed","Sun Nov 27 00:28:48 GMT+08:00 2022","Sun Nov 27 00:28:50 GMT+08:00 2022","1684","testcases","test_kdt","","","","test_update_user_avatar[20-20]",""
+"passed","Sun Nov 27 00:28:32 GMT+08:00 2022","Sun Nov 27 00:28:34 GMT+08:00 2022","1841","testcases","test_kdt","","","","test_update_user_avatar[16-20]",""
+"broken","Sun Nov 27 00:28:17 GMT+08:00 2022","Sun Nov 27 00:28:28 GMT+08:00 2022","10901","testcases","test_kdt","","","","test_update_user_avatar[13-20]",""
