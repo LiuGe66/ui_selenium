@@ -30,7 +30,6 @@ class BasePage:
                 el = self.find_element(By.XPATH, loc)  # 定位元素
 
                 setattr(self, attr, el)  # 设置属性
-                # logger.info('set后--------', attr)
 
     def find_element(self, *args):
         # 封装过的元素定位方法，自动使用显示等待
@@ -51,7 +50,7 @@ class BasePage:
 
     def get_msg(self):
         msg = self.wait.until(
-            lambda _: self.driver.find_element(By.XPATH, '//p[@class="prompt-msg"]').text
+            lambda _: self.driver.find_element(By.XPATH, '//*[@class="prompt-msg"]').text
         )
         return msg
 
@@ -70,7 +69,7 @@ class HomePage(BasePage):
 class LoginPage(BasePage):
     ele_ipt_username = "//*[@name='accounts']"
     ele_ipt_password = "//*[@name='pwd']"
-    ele_btn_submit = "//button[contains(@data-am-loading,'{load') and text()='登录']"
+    ele_btn_submit = "//*[@type='submit' and text()='登录']"
 
     def login(self, username, password):
         self._input(self.ele_ipt_username, username)
@@ -99,7 +98,8 @@ class UserGoodsFavor(BasePage):
         "//button[text()='全选']"
     )
     ele_btn_delete = (
-        '//*[@data-key="ids"]'  # 删除按钮
+        '//*[contains(@data-confirm-msg,"删除后不可恢复")]'  # 删除按钮
+        # '/html/body/div[4]/div[3]/div/div[2]/form/div[2]/button[1]'
     )
     loc_ele_btn_confirm = (
         '//span[text()="确定"]'

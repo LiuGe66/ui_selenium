@@ -46,12 +46,11 @@ def user_driver():
     返回已登录状态的浏览器
     :return:
     """
-    options = webdriver.ChromeOptions()
-    options.add_argument("--headless")
-    options.add_argument("--disable-gpu")
-    driver_no_gui = webdriver.Chrome(chrome_options=options)
-    driver_gui = webdriver.Chrome()
-    driver = driver_gui
+    # options = webdriver.ChromeOptions()
+    # options.add_argument("--headless")
+    # options.add_argument("--disable-gpu")
+    # driver = webdriver.Chrome(chrome_options=options)
+    driver = webdriver.Chrome()
     # driver.maximize_window()
     driver.get(huace)
     set_cookies(driver)  # 加载登录状态
@@ -74,7 +73,6 @@ def user_driver():
 
 @pytest.fixture()
 def clear_favor(user_driver):
-    # user_driver.get(huace+"?s=usergoodsfavor/index.html")
     user_driver.get('http://shop-xo.hctestedu.com/index.php?s=/index/usergoodsfavor/index.html')
     page = pom.UserGoodsFavor(user_driver)
     if page.ele_btn_check_all.is_enabled():
