@@ -72,7 +72,7 @@ def user_driver():
 
 
 @pytest.fixture()
-def clear_favor(user_driver):
+def clear_favor_driver(user_driver):
     user_driver.get('http://shop-xo.hctestedu.com/index.php?s=/index/usergoodsfavor/index.html')
     page = pom.UserGoodsFavor(user_driver)
     if page.ele_btn_check_all.is_enabled():
@@ -81,3 +81,6 @@ def clear_favor(user_driver):
         assert msg == "删除成功"
     else:
         pass
+
+        yield user_driver
+
